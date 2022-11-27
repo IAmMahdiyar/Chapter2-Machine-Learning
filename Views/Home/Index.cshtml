@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Who Are You?</h1>
+    <form method="GET", action="/Home/Recommend">
+        <input name="UserId" type="number" min="1", max="609" class="form-control">
+        <br/>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
